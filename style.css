@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url(./media/HeaderBG.jpeg)no-repeat;
+    text-align: center;
+}
+#navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+}
+#logo{
+    width: 20%;
+}
+#nav {
+    width: 60%;
+}
+.nav {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2% 4%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-top: 10px;
+    width: 120px;
+    height: 60px;
+}
+#langue {
+    padding: 1%;
+    width: 20%;
+}
+select, option {
+    margin-top: 15px;
+    background: none;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+#title {
+    color: rgb(233, 230, 230);
+    padding-top: 17%;
+}
+#ph {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+h1 {
+    padding: 30px;
+    font-size: 6rem;
+}
+#contact {
+    background: white;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 97vh;
+    left: 10%;
+    color: black;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 10px;
+}
+/*-------------------- contenue ----------------*/
+.contenair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#c1 {
+    text-align: justify;
+    padding: 10%;
+    font-size: 2rem;
+}
+#c1-2 {
+    text-align: left;
+    padding: 0 10% 0 30%;
+}
+#c1-3 {
+    text-align: justify;
+    padding: 5% 10% 0 30% ;
+}
+#pekka {
+    padding: 10% 30% 0 10% ;
+    width: 50%;
+    height: 50vh;
+}
+.cont {
+    width: 100%;
+    height: 70vh;
+}
+#bob {
+    padding: 0 0 0 40%;
+    width: 50%;
+    height: 50vh;
+}
+#c2 {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 0 10% 10% 10%;
+}
+#c2-2 {
+    text-align: left;
+    padding: 0 30% 10% 10%;
+}
+#c2-3 {
+    text-align: justify;
+    padding: 0 30% 0 10%;
+}
